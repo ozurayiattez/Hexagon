@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=960 height=600></canvas>
+      <canvas id="unity-canvas" width=1080 height=1920></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -58,9 +58,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/Hexago.loader.js";
       var config = {
-        dataUrl: buildUrl + "/0be4bd74f133eb43ee858cdf1be55361.data.unityweb",
-        frameworkUrl: buildUrl + "/c8de26390c0642486bebf7003ca19dbf.js.unityweb",
-        codeUrl: buildUrl + "/5f246054b21528db99dcd70312dce02c.wasm.unityweb",
+        dataUrl: buildUrl + "/b8e268a16eadf37cb53f51f2d82c3ed4.data.unityweb",
+        frameworkUrl: buildUrl + "/9c7203e592a5dee4fee7c659679451be.js.unityweb",
+        codeUrl: buildUrl + "/ae96cc034644ad815cc3f5b95ff97a7e.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Hexago",
@@ -93,8 +93,8 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "960px";
-        canvas.style.height = "600px";
+        canvas.style.width = "1080px";
+        canvas.style.height = "1920px";
       }
 
       loadingBar.style.display = "block";
